@@ -32,7 +32,7 @@ public class FishTest {
     public void setWeightInOz() {
         // Arrange
         String origWt = "3 lbs.";
-        Fish fish = new Fish(123L,"Walleye", origWt, "April 12");
+        Fish fish = new Fish(123L,"Walleye", origWt,"April 12");
         // Act
         fish.setWeightInOz(origWt);
         // Assert

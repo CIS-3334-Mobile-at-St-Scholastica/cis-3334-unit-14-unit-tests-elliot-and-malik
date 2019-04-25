@@ -65,7 +65,8 @@ public class Fish implements Serializable {
     }
 
     public void setWeightInOz(String weightInOz) {
-        this.weightInOz = weightInOz;
+
+        this.species = weightInOz;
     }
 
     public String getDateCaught() {
